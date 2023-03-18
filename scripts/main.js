@@ -8,7 +8,7 @@ document.addEventListener("keypress", (e) => {
         insert_item();
     }
 });
-
+//percorre o elemento padrão (remover o forEach se n precisar do elemento padrão)
 item_list.forEach((item) => {
     item.addEventListener("mouseenter", () => {
         generate_list_buttons(item)
