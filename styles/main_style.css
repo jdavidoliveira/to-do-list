@@ -12,7 +12,7 @@ main {
 }
 
 .to-do-list {
-    width: 768px;
+    max-width: 768px;
     margin: 100px auto;
 }
 
@@ -61,13 +61,15 @@ main {
 
 .to-do-list .list_item {
     width: 75%;
-    margin: 20px auto;
+    height: 30px;
+    margin: 10px auto;
     border-radius: 5px;
     border: 2px solid rgb(63, 63, 63);
     padding: 15px;
     font-size: 20px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .list_item h1 {
@@ -80,6 +82,18 @@ main {
 }
 
 .list_item .delete_button {
-    width: 80px;
-    height: 22px;
+    margin-left: 20px;
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    border: 0.5px solid rgba(0, 0, 0, 0.699);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_item .delete_button img {
+    height: 90%;
 }

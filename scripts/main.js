@@ -24,8 +24,10 @@ function generate_list_buttons(item) {
     //prepara o elemento deletar
     const delete_button = document.createElement("button");
     delete_button.setAttribute("class", "delete_button");
-    delete_button.textContent = "Deletar";
-
+    //icone de lixeira
+    const garbage_icon = document.createElement("img");
+    garbage_icon.setAttribute("src", "./assets/trash.svg");
+    delete_button.appendChild(garbage_icon);
     //adiciona o botão deletar ao elemento
     item.appendChild(delete_button);    
 
