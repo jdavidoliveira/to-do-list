@@ -4,9 +4,9 @@ Uma aplicação web criada com o objetivo de por em prática meus conhecimentos.
 
 
 ## Implementações
-### - Criação de componentes usando JavaScript: 
+### - Criação de componentes usando JavaScript
 ### - Armazenamento de dados com o Web Local Storage
-### - Responsividade com as Media Queries do CSS:
+### - Responsividade com as Media Queries do CSS
 
 
 ## Ferramentas e Tecnologias
